@@ -650,6 +650,10 @@ table.field {
 .right-side-pannel{
     float: none;
 }
+.pop-up-side-pannel{
+    border: 2px solid white;
+    float: right;
+}
 
 #p2mon, #p1mon, #monSingle, #monDouble {
     min-height: 30px;

@@ -1530,6 +1530,10 @@ function resetTrainer() {
 	
 }
 
+function HideShowBattlePlanner() {
+	$('#battle-planner-panel')[0].toggleAttribute("hidden");
+}
+
 
 function HideShowCCSettings(){
 	$('#show-cc')[0].toggleAttribute("hidden");
@@ -1805,6 +1809,7 @@ $(document).ready(function () {
 	$("#previous-trainer").click(previousTrainer);
 	$("#next-trainer").click(nextTrainer);
 	$("#reset-trainer").click(resetTrainer);
+	$("#battle-planner").click(HideShowBattlePlanner);
 	$('#show-cc').click(showColorCodes);
 	$('#hide-cc').click(hideColorCodes);
 	$('#refr-cc').click(refreshColorCode);
